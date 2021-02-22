@@ -1,0 +1,37 @@
+.authentication {
+	text-align: center;
+	height: 100vh;
+	max-width: 300px;
+	margin: 0 auto;
+	position: relative;
+}
+
+.content-authentication {
+	width: 100%;
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+}
+
+.title-authentication {
+	font-size: 1.6em;
+	font-family: 'Poppins', sans-serif;
+	color: #2278dd;
+	margin: 0.25em 0 2em;
+}
+
+.button-authentication {
+	color: white;
+	background-color: #2278dd;
+	border-radius: 5em;
+	box-shadow: 0 0 2em #ebf0f5;
+	-webkit-box-shadow: 0 0 2em #ebf0f5;
+	-moz-box-shadow: 0 0 2em #ebf0f5;
+	padding: 0.5em 1em;
+	margin-top: 3em;
+	transition: 0.3s;
+}
+
+.button-authentication:hover {
+	background-color: #221f5d;
+}

@@ -1,0 +1,56 @@
+.links-header ol,
+.menu-header ol {
+	list-style: none;
+	padding-left: 0;
+	margin-bottom: 0;
+}
+
+.links-header li {
+	display: inline-block;
+}
+
+.links-header li:not(:first-child) {
+	margin-left: 1.5em;
+}
+
+.menu-header li:not(:last-child) {
+	margin-bottom: 1em;
+}
+
+.links-header a,
+.menu-header a {
+	font-size: 0.9em;
+	font-family: 'Montserrat', sans-serif;
+	text-decoration: none;
+}
+
+.links-header li:first-child a,
+.menu-header li:first-child a {
+	color: white;
+	background-color: #2278dd;
+	border-radius: 5em;
+	box-shadow: 0 0 2em #ebf0f5;
+	-webkit-box-shadow: 0 0 2em #ebf0f5;
+	-moz-box-shadow: 0 0 2em #ebf0f5;
+	padding: 0.5em 1em;
+	transition: 0.3s;
+}
+
+.links-header li:not(:first-child) a,
+.menu-header li:not(:first-child) a {
+	color: #221f5d;
+}
+
+.links-header li:first-child a:hover,
+.menu-header li:first-child a:hover {
+	background-color: #221f5d;
+}
+
+.links-header button,
+.menu-header button {
+	font-size: 0.9em;
+	font-family: 'Montserrat', sans-serif;
+	color: #221f5d;
+	background-color: white;
+	padding: 0;
+}

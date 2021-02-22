@@ -1,0 +1,26 @@
+.subtitle-footer {
+	line-height: 2.5;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: bold;
+	color: #221f5d;
+}
+
+.links-footer {
+	list-style: none;
+	padding-left: 0;
+	margin-bottom: 0;
+}
+
+.links-footer a {
+	font-size: 0.9em;
+	line-height: 2;
+	font-family: 'Montserrat', sans-serif;
+	text-decoration: none;
+	color: #221f5d;
+}
+
+@media (max-width: 768px) {
+  .subtitle-footer {
+  	margin-top: 1.5em;
+  }
+}

@@ -1,0 +1,11 @@
+.template a {
+	background: url("../../../assets/desktop-preview.png") no-repeat center center;
+	background-size: cover;
+	box-shadow: 0 0 2em #ebf0f5;
+	-webkit-box-shadow: 0 0 2em #ebf0f5;
+	-moz-box-shadow: 0 0 2em #ebf0f5;
+	height: 15em;
+	width: 100%;
+	margin-top: 2em;
+	display: block;
+}

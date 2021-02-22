@@ -1,0 +1,30 @@
+.burger {
+	height: 1.1em;
+	width: 1.5em;
+	cursor: pointer;
+	display: inline-flex;
+  flex-direction: column;
+  justify-content: space-between;
+  transform: translateY(-50%);
+}
+
+.burger div {
+	background-color: #221f5d;
+	height: 0.2em;
+	width: 100%;
+	transform-origin: 2px;
+	transition: 0.3s linear;
+}
+
+.burger div:first-child.active {
+  transform: rotate(45deg);
+}
+
+.burger div:nth-child(2).active {
+  opacity: 0;
+  transform: translateX(20px);
+}
+
+.burger div:last-child.active {
+  transform: rotate(-45deg);
+}
